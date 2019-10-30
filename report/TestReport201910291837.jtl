@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="92" it="0" lt="91" ct="25" ts="1572345434454" s="true" lb="POST /role" rc="200" rm="OK" tn="Scenario 1-1" dt="text" by="296" sby="336" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.203:1888/user/v1/role</java.net.URL>
+</httpSample>
+<httpSample t="32" it="0" lt="32" ct="0" ts="1572345434557" s="true" lb="GET /role" rc="200" rm="OK" tn="Scenario 1-1" dt="text" by="508" sby="282" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.203:1888/user/v1/role?page=1&amp;pagesize=2&amp;key=ib-测试&amp;utype=ib&amp;fields=*&amp;tag=client&amp;role=client</java.net.URL>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="0" ts="1572345434943" s="true" lb="PUT /role" rc="200" rm="OK" tn="Scenario 1-1" dt="text" by="291" sby="331" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.203:1888/user/v1/role/f2b0-479bf5252</java.net.URL>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="0" ts="1572345434974" s="true" lb="GET /role/{id}" rc="200" rm="OK" tn="Scenario 1-1" dt="text" by="537" sby="212" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.203:1888/user/v1/role/f2b0-479bf5252</java.net.URL>
+</httpSample>
+<httpSample t="26" it="0" lt="26" ct="0" ts="1572345434996" s="true" lb="DELETE /role" rc="200" rm="OK" tn="Scenario 1-1" dt="text" by="291" sby="272" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.1.203:1888/user/v1/role/f2b0-479bf5252</java.net.URL>
+</httpSample>
+
+</testResults>
